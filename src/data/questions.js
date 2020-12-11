@@ -7,7 +7,7 @@ export const designQuestions = [
     visited: false,
   },
   {
-    question: "Does your design include images or maps?",
+    question: "Does your design include images or imagemaps?",
     addToChecklist: false,
     guidelines: ["1.1.1"],
     visited: false,
@@ -80,7 +80,7 @@ export const fullQuestions = [
     visited: false,
   },
   {
-    question: "Does your design include images or maps?",
+    question: "Does your design include images or imagemaps?",
 
     addToChecklist: false,
     guidelines: ["1.1.1"],
@@ -95,7 +95,7 @@ export const fullQuestions = [
     addToChecklist: false,
   },
   {
-    question: "Are there any input fields",
+    question: "Are there any input fields?",
     addToChecklist: false,
     guidelines: ["3.3.1", "3.3.2", "3.3.3", "3.3.4"],
     visited: false,

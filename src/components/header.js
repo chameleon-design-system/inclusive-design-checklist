@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
       <Link className="header__title" to="/">
         <h1>{siteTitle}</h1>
       </Link>
-      <p>Version 0.0.2</p>
+      <p>Version 0.0.3</p>
     </header>
   </>
 )

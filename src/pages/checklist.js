@@ -9,7 +9,6 @@ import { guidelines } from "../data/guidelines"
 
 const ChecklistPage = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(-1)
-  const [currentSubQuestionIndex, setCurrentSubQuestionIndex] = useState(-1)
   const [checklistQuestions, setChecklistQuestions] = useState(null)
   const [optionSelected, setOptionSelected] = useState(false)
   const [checklistGuidelines, setChecklistGuidelines] = useState([])

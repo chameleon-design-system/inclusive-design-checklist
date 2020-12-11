@@ -151,12 +151,20 @@ input[type="radio"]:checked + label {
   max-width: 740px;
 }
 
-.checklist-item-title {
-  color: #000;
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 24px;
+.checklist-item__roles {
+  display: block;
+}
+
+.checklist-item__roles__job {
+  background-color: lightgrey;
+  border-radius: 0.25rem;
   display: inline-block;
+  margin: 0 0.5rem 1rem 0;
+  padding: 0.5rem;
+}
+
+.checklist-item__copy-button {
+  margin: 0 0 2rem 0;
 }
 
 /* Customize the label (the container) */
